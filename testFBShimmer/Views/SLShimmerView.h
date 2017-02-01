@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SLShimmerView.h
 //  testFBShimmer
 //
 //  Created by Agustin De Leon on 31/1/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SLShimmerView : UIView
 
 @end
-

@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		410F25201E414A3700FFB52A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F251F1E414A3700FFB52A /* main.m */; };
 		410F25231E414A3700FFB52A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F25221E414A3700FFB52A /* AppDelegate.m */; };
-		410F25261E414A3700FFB52A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F25251E414A3700FFB52A /* ViewController.m */; };
 		410F25291E414A3700FFB52A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410F25271E414A3700FFB52A /* Main.storyboard */; };
 		410F252B1E414A3700FFB52A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410F252A1E414A3700FFB52A /* Assets.xcassets */; };
 		410F252E1E414A3700FFB52A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410F252C1E414A3700FFB52A /* LaunchScreen.storyboard */; };
+		410F253E1E414B1D00FFB52A /* SLShimmerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F253A1E414B1D00FFB52A /* SLShimmerView.m */; };
+		410F253F1E414B1D00FFB52A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F253D1E414B1D00FFB52A /* ViewController.m */; };
+		410F25411E4189EF00FFB52A /* SLShimmerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410F25401E4189EF00FFB52A /* SLShimmerView.xib */; };
+		410F25451E418CBF00FFB52A /* SLShimmerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F25441E418CBF00FFB52A /* SLShimmerTableViewCell.m */; };
+		B41FFAB1EE5D9B17516BC6B9 /* libPods-testFBShimmer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A12B12E3E13BFDE9F0D157 /* libPods-testFBShimmer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B79B5AC068B084824C55390 /* Pods-testFBShimmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFBShimmer.release.xcconfig"; path = "Pods/Target Support Files/Pods-testFBShimmer/Pods-testFBShimmer.release.xcconfig"; sourceTree = "<group>"; };
+		1BB301BB70025CD2682701BA /* Pods-testFBShimmer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFBShimmer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testFBShimmer/Pods-testFBShimmer.debug.xcconfig"; sourceTree = "<group>"; };
 		410F251B1E414A3700FFB52A /* testFBShimmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testFBShimmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		410F251F1E414A3700FFB52A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		410F25211E414A3700FFB52A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		410F25221E414A3700FFB52A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		410F25241E414A3700FFB52A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		410F25251E414A3700FFB52A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		410F25281E414A3700FFB52A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		410F252A1E414A3700FFB52A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		410F252D1E414A3700FFB52A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		410F252F1E414A3700FFB52A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410F25391E414B1D00FFB52A /* SLShimmerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShimmerView.h; sourceTree = "<group>"; };
+		410F253A1E414B1D00FFB52A /* SLShimmerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShimmerView.m; sourceTree = "<group>"; };
+		410F253C1E414B1D00FFB52A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		410F253D1E414B1D00FFB52A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		410F25401E4189EF00FFB52A /* SLShimmerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLShimmerView.xib; sourceTree = "<group>"; };
+		410F25431E418CBF00FFB52A /* SLShimmerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShimmerTableViewCell.h; sourceTree = "<group>"; };
+		410F25441E418CBF00FFB52A /* SLShimmerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShimmerTableViewCell.m; sourceTree = "<group>"; };
+		95A12B12E3E13BFDE9F0D157 /* libPods-testFBShimmer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testFBShimmer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41FFAB1EE5D9B17516BC6B9 /* libPods-testFBShimmer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		387BF5CE635ACA521AF343AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BB301BB70025CD2682701BA /* Pods-testFBShimmer.debug.xcconfig */,
+				0B79B5AC068B084824C55390 /* Pods-testFBShimmer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		410F25121E414A3700FFB52A = {
 			isa = PBXGroup;
 			children = (
 				410F251D1E414A3700FFB52A /* testFBShimmer */,
 				410F251C1E414A3700FFB52A /* Products */,
+				387BF5CE635ACA521AF343AB /* Pods */,
+				A5564EF863B52A13A062EABD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +82,11 @@
 		410F251D1E414A3700FFB52A /* testFBShimmer */ = {
 			isa = PBXGroup;
 			children = (
+				410F25421E418CA800FFB52A /* CellsViews */,
+				410F25381E414B1D00FFB52A /* Views */,
+				410F253B1E414B1D00FFB52A /* ViewsController */,
 				410F25211E414A3700FFB52A /* AppDelegate.h */,
 				410F25221E414A3700FFB52A /* AppDelegate.m */,
-				410F25241E414A3700FFB52A /* ViewController.h */,
-				410F25251E414A3700FFB52A /* ViewController.m */,
 				410F25271E414A3700FFB52A /* Main.storyboard */,
 				410F252A1E414A3700FFB52A /* Assets.xcassets */,
 				410F252C1E414A3700FFB52A /* LaunchScreen.storyboard */,
@@ -79,6 +104,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		410F25381E414B1D00FFB52A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				410F25391E414B1D00FFB52A /* SLShimmerView.h */,
+				410F253A1E414B1D00FFB52A /* SLShimmerView.m */,
+				410F25401E4189EF00FFB52A /* SLShimmerView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		410F253B1E414B1D00FFB52A /* ViewsController */ = {
+			isa = PBXGroup;
+			children = (
+				410F253C1E414B1D00FFB52A /* ViewController.h */,
+				410F253D1E414B1D00FFB52A /* ViewController.m */,
+			);
+			path = ViewsController;
+			sourceTree = "<group>";
+		};
+		410F25421E418CA800FFB52A /* CellsViews */ = {
+			isa = PBXGroup;
+			children = (
+				410F25431E418CBF00FFB52A /* SLShimmerTableViewCell.h */,
+				410F25441E418CBF00FFB52A /* SLShimmerTableViewCell.m */,
+			);
+			path = CellsViews;
+			sourceTree = "<group>";
+		};
+		A5564EF863B52A13A062EABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95A12B12E3E13BFDE9F0D157 /* libPods-testFBShimmer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 410F25321E414A3700FFB52A /* Build configuration list for PBXNativeTarget "testFBShimmer" */;
 			buildPhases = (
+				E3560E46245AEE7CEC9352FA /* [CP] Check Pods Manifest.lock */,
 				410F25171E414A3700FFB52A /* Sources */,
 				410F25181E414A3700FFB52A /* Frameworks */,
 				410F25191E414A3700FFB52A /* Resources */,
+				E0E7CB1B5379489BB43B4B92 /* [CP] Embed Pods Frameworks */,
+				308426FC26E9134CB9CDD184 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410F25411E4189EF00FFB52A /* SLShimmerView.xib in Resources */,
 				410F252E1E414A3700FFB52A /* LaunchScreen.storyboard in Resources */,
 				410F252B1E414A3700FFB52A /* Assets.xcassets in Resources */,
 				410F25291E414A3700FFB52A /* Main.storyboard in Resources */,
@@ -146,14 +211,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		308426FC26E9134CB9CDD184 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testFBShimmer/Pods-testFBShimmer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0E7CB1B5379489BB43B4B92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testFBShimmer/Pods-testFBShimmer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3560E46245AEE7CEC9352FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		410F25171E414A3700FFB52A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410F25261E414A3700FFB52A /* ViewController.m in Sources */,
+				410F25451E418CBF00FFB52A /* SLShimmerTableViewCell.m in Sources */,
 				410F25231E414A3700FFB52A /* AppDelegate.m in Sources */,
 				410F25201E414A3700FFB52A /* main.m in Sources */,
+				410F253F1E414B1D00FFB52A /* ViewController.m in Sources */,
+				410F253E1E414B1D00FFB52A /* SLShimmerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +384,7 @@
 		};
 		410F25331E414A3700FFB52A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB301BB70025CD2682701BA /* Pods-testFBShimmer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QEXTZ9L4HQ;
@@ -281,6 +397,7 @@
 		};
 		410F25341E414A3700FFB52A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B79B5AC068B084824C55390 /* Pods-testFBShimmer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QEXTZ9L4HQ;
@@ -310,6 +427,7 @@
 				410F25341E414A3700FFB52A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

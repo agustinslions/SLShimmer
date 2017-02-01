@@ -1,0 +1,15 @@
+PODS:
+  - Masonry (1.0.2)
+  - Shimmer (1.0.2)
+
+DEPENDENCIES:
+  - Masonry
+  - Shimmer
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+
+PODFILE CHECKSUM: d52f6ee2155f0eeb8d1e7397d50926d681a960d1
+
+COCOAPODS: 1.1.1
